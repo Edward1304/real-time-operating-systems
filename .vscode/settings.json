@@ -3,7 +3,20 @@
   "idf.flashType": "UART",
   "idf.portWin": "COM5",
   "idf.openOcdConfigs": [
-    "interface/ftdi/esp32_devkitj_v1.cfg",
-    "board/esp32-wrover.cfg"
-  ]
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.adapterTargetName": "custom",
+  "files.associations": {
+    "stdio.h": "c",
+    "adc.h": "c",
+    "freertos.h": "c",
+    "cstring": "c",
+    "typeinfo": "c",
+    "esp_log.h": "c",
+    "nvs_flash.h": "c",
+    "wifi_app.h": "c",
+    "esp_sntp.h": "c"
+  },
+  "idf.customAdapterTargetName": "esp32",
+  "liveServer.settings.port": 5501
 }
